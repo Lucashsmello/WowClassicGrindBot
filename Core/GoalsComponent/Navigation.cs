@@ -436,7 +436,16 @@ namespace Core.Goals
                 manualReset.Reset();
                 if (pathRequests.TryPeek(out PathRequest pathRequest))
                 {
-                    Vector3[] path = pather.FindWorldRoute(pathRequest.MapId, pathRequest.StartW, pathRequest.EndW);
+                    Vector3[] path = {pathRequest.StartW, pathRequest.EndW}; // default path
+                    try
+                    {
+                        path = pather.FindWorldRoute(pathRequest.MapId, pathRequest.StartW, pathRequest.EndW);
+                    } catch (System.IO.IOException e)
+                    {
+                        logger.LogWarning(e.ToString());
+                        logger.LogWarning("Using linear path!");
+                    }
+                    
                     if (active)
                     {
                         pathResults.Enqueue(new PathResult(pathRequest, path, pathRequest.Callback));
