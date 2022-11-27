@@ -210,6 +210,8 @@ namespace Core.Goals
 
             if (!OpenMerchantWindow())
                 return;
+            input.Proc.KeyPress(key.ConsoleKey, input.defaultKeyPress);
+            wait.Update();
 
             input.Proc.KeyPress(ConsoleKey.Escape, input.defaultKeyPress);
             input.ClearTarget();
