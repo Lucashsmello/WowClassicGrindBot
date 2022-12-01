@@ -35,6 +35,7 @@ namespace Core
         public bool Renew() => v[Mask._12];
         public bool Shield() => v[Mask._13];
         public bool DivineSpirit() => v[Mask._14];
+        public bool VampiricEmbrace() => v[Mask._15];
 
         // Druid
         public bool MarkOfTheWild() => v[Mask._10];
@@ -77,6 +78,9 @@ namespace Core
         public bool ManaShield() => v[Mask._15];
         public bool PresenceOfMind() => v[Mask._16];
         public bool ArcanePower() => v[Mask._17];
+        public bool HotStreak() => v[Mask._18];
+        public bool Combustion() => v[Mask._19];
+        public bool Impact() => v[Mask._20];
 
         // Rogue
         public bool SliceAndDice() => v[Mask._10];
@@ -100,6 +104,9 @@ namespace Core
         public bool WaterShield() => v[Mask._11];
         public bool ShamanisticFocus() => v[Mask._12];
         public bool Stoneskin() => v[Mask._13];
+        public bool TotemofWrath() => v[Mask._14];
+        public bool GroundingTotem() => v[Mask._15];
+        public bool TremorTotem() => v[Mask._16];
 
         // Hunter
         public bool AspectoftheCheetah() => v[Mask._10];

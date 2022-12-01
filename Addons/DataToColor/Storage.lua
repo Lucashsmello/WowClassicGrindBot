@@ -137,6 +137,7 @@ function CreatePlayerBuffList()
         DataToColor.S.playerBuffs[12] = { "Renew", [135953] = 1 }
         DataToColor.S.playerBuffs[13] = { "Shield", [135940] = 1 }
         DataToColor.S.playerBuffs[14] = { "Spirit", [1358982] = 1, [135946] = 1 }
+        DataToColor.S.playerBuffs[15] = { "Vampiric Embrace", [136230] = 1 }
     elseif DataToColor.C.CHARACTER_CLASS == "DRUID" then
         DataToColor.S.playerBuffs[10] = { "Mark of the Wild", [136078] = 1 }
         DataToColor.S.playerBuffs[11] = { "Thorns", [136104] = 1 }
@@ -174,6 +175,9 @@ function CreatePlayerBuffList()
         DataToColor.S.playerBuffs[15] = { "Mana Shield", [136153] = 1 }
         DataToColor.S.playerBuffs[16] = { "Presence of Mind", [136031] = 1 }
         DataToColor.S.playerBuffs[17] = { "Arcane Power", [136048] = 1 }
+        DataToColor.S.playerBuffs[18] = { "Hot Streak", [236218] = 1 }
+        DataToColor.S.playerBuffs[19] = { "Combustion", [135824] = 1 }
+        DataToColor.S.playerBuffs[20] = { "Impact", [135821] = 1 }
     elseif DataToColor.C.CHARACTER_CLASS == "ROGUE" then
         DataToColor.S.playerBuffs[10] = { "Slice and Dice", [132306] = 1 }
         DataToColor.S.playerBuffs[11] = { "Stealth", [132320] = 1 }
@@ -193,6 +197,9 @@ function CreatePlayerBuffList()
         DataToColor.S.playerBuffs[11] = { "Water Shield", [132315] = 1 }
         DataToColor.S.playerBuffs[12] = { "Focused", [136027] = 1 } -- Shamanistic Focus
         DataToColor.S.playerBuffs[13] = { "Stoneskin", [136098] = 1 }
+        DataToColor.S.playerBuffs[14] = { "Totem of Wrath", [135829] = 1 }
+        DataToColor.S.playerBuffs[15] = { "Grounding Totem", [136039] = 1 }
+        DataToColor.S.playerBuffs[16] = { "Tremor Totem", [136108] = 1 }
     elseif DataToColor.C.CHARACTER_CLASS == "HUNTER" then
         DataToColor.S.playerBuffs[10] = { "Aspect of the Cheetah", [132242] = 1 }
         DataToColor.S.playerBuffs[11] = { "Aspect of the Pack", [132267] = 1 }

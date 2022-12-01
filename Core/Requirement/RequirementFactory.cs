@@ -138,6 +138,7 @@ namespace Core
                 { "Divine Spirit", playerReader.Buffs.DivineSpirit },
                 { "Renew", playerReader.Buffs.Renew },
                 { "Shield", playerReader.Buffs.Shield },
+                { "Vampiric Embrace", playerReader.Buffs.VampiricEmbrace },
 
                 // Druid
                 { "Mark of the Wild", playerReader.Buffs.MarkOfTheWild },
@@ -181,6 +182,9 @@ namespace Core
                 { "Mana Shield", playerReader.Buffs.ManaShield },
                 { "Presence of Mind", playerReader.Buffs.PresenceOfMind },
                 { "Arcane Power", playerReader.Buffs.ArcanePower },
+                { "Hot Streak", playerReader.Buffs.HotStreak },
+                { "Combustion", playerReader.Buffs.Combustion },
+                { "Impact", playerReader.Buffs.Impact },
                 
                 // Rogue
                 { "Slice and Dice", playerReader.Buffs.SliceAndDice },
@@ -206,6 +210,9 @@ namespace Core
                 { "Shamanistic Focus", playerReader.Buffs.ShamanisticFocus },
                 { "Focused", playerReader.Buffs.ShamanisticFocus },
                 { "Stoneskin", playerReader.Buffs.Stoneskin },
+                { "Totem of Wrath", playerReader.Buffs.TotemofWrath },
+                { "Grounding Totem", playerReader.Buffs.GroundingTotem },
+                { "Tremor Totem", playerReader.Buffs.TremorTotem },
                 
                 //Hunter
                 { "Aspect of the Cheetah", playerReader.Buffs.AspectoftheCheetah },
