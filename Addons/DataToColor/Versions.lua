@@ -101,3 +101,12 @@ else
     end
   end
 end
+
+-- bag changes from 10.0
+
+DataToColor.GetContainerNumSlots = GetContainerNumSlots or C_Container.GetContainerNumSlots
+DataToColor.GetContainerItemInfo = GetContainerItemInfo or C_Container.GetContainerItemInfo
+DataToColor.GetContainerNumFreeSlots = GetContainerNumFreeSlots or C_Container.GetContainerNumFreeSlots
+DataToColor.GetContainerItemLink = GetContainerItemLink or C_Container.GetContainerItemLink
+DataToColor.PickupContainerItem = PickupContainerItem or C_Container.PickupContainerItem
+DataToColor.UseContainerItem = UseContainerItem or C_Container.UseContainerItem
